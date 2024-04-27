@@ -12,7 +12,7 @@ export default function Main() {
           <div className="flex justify-center">
             <a
               className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
-              href="https://github.com/r1/nine4-2/"
+              href="/dumbBitch"
             >
               <span className="justify-center">Find out more</span>
             </a>
@@ -30,7 +30,7 @@ export default function Main() {
         <div className="container px-5 mx-auto lg:px-24 ">
           <div className="flex flex-col w-full mb-4 text-left lg:text-center">
             <h1 className="mb-8 text-2xl Avenir font-semibold text-black">
-              Trusted by top-tier product companies
+              Trusted by top-tier bitches
             </h1>
           </div>
           <div className="grid grid-cols-2 gap-16 mb-16 text-center lg:grid-cols-4">
@@ -67,10 +67,10 @@ export default function Main() {
       </section>
       <div className="grr max-w-7xl pt-20 mx-auto text-center">
         <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
-          Less code, less effort.
+          Less brain, more money.
         </h1>
         <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
-          Minify your CSS with Tailwind's built in PostCSS support.
+          Make my 80 year old grand dad cum all over his crib.
         </h1>
         <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
           <img
