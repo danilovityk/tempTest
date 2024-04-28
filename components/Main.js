@@ -70,7 +70,7 @@ export default function Main() {
           Less brain, more money.
         </h1>
         <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
-          Make my 80 year old grand dad cum all over his crib.
+          Make my 80 year old granddad cum all over his crib.
         </h1>
         <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
           <img
