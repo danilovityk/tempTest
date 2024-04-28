@@ -23,8 +23,8 @@ export default function Home() {
       </Head>
       <Header />
       <Main />
-      <Footer />
       <RegForm />
+      <Footer />
       
     </div>
   );
