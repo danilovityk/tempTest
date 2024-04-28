@@ -76,7 +76,7 @@ export default function Main() {
           <img
             className="object-cover object-center w-3/4 mb-10 g327 border rounded-lg shadow-md"
             alt="Placeholder Image"
-            src="images/jonah-falcon.webp"
+            src="images/stats.jpeg"
           ></img>
         </div>
       </div>
