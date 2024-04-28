@@ -3,10 +3,10 @@ export default function Main() {
     <section className="text-gray-600 body-font">
       <div className="max-w-7xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
-          <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900">
+          <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-white">
           Big dreams start here!
           </h1>
-          <p className="mb-4 xl:w-3/4 text-gray-600 text-lg">
+          <p className="mb-4 xl:w-3/4 text-gray-300 text-lg">
           As the Global Leading OnlyFans Agency in USA, we work with motivated Content Creators and Influencers to unlock the unfathomable potential of reach and revenue.
           </p>
           <div className="flex justify-center">
@@ -26,14 +26,14 @@ export default function Main() {
           ></img>
         </div>
       </div>
-      <section className="mx-auto">
+      <section className="mx-auto bg-gray-300 py-2">
         <div className="container px-5 mx-auto lg:px-24 ">
           <div className="flex flex-col w-full mb-4 text-left lg:text-center">
-            <h1 className="mb-8 text-2xl Avenir font-semibold text-black">
+            <h1 className="mt-4 mb-8 text-2xl Avenir font-semibold text-black">
               Trusted by top-tier bitches
             </h1>
           </div>
-          <div className="grid grid-cols-2 gap-16 mb-16 text-center lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-16 mb-6 text-center lg:grid-cols-4">
             <div className="flex items-center justify-center">
               <img
                 src="/images/Onlyfans-Logo.png"
@@ -66,10 +66,10 @@ export default function Main() {
         </div>
       </section>
       <div className="grr max-w-7xl pt-20 mx-auto text-center">
-        <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
+        <h1 className="mb-8 text-6xl Avenir font-semibold text-white">
           Less brain, more money.
         </h1>
-        <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
+        <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-300 text-center">
           Make my 80 year old granddad cum all over his crib.
         </h1>
         <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
@@ -83,10 +83,10 @@ export default function Main() {
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div className="py-24 md:py-36">
-            <h1 className="mb-5 text-6xl Avenir font-semibold text-gray-900">
+            <h1 className="mb-5 text-6xl Avenir font-semibold text-white">
               Subscribe to our newsletter
             </h1>
-            <h1 className="mb-9 text-2xl font-semibold text-gray-600">
+            <h1 className="mb-9 text-2xl font-semibold text-gray-300">
               Enter your email address and get our newsletters straight away.
             </h1>
             <input

@@ -11,7 +11,7 @@ export default function Header() {
             href="/"
             className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
           >
-            <h1 className="text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
+            <h1 className="text-4xl Avenir tracking-tighter text-white md:text-4x1 lg:text-3xl">
               Король Онліфанса
             </h1>
           </a>
@@ -50,7 +50,7 @@ export default function Header() {
               <li>
                 <a
                   href="/"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-100 hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Careers
                 </a>
@@ -58,14 +58,14 @@ export default function Header() {
               <li>
                 <a
                   href="/"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-100 hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   About Us
                 </a>
               </li>
               <li>
                 <a
-                  className="inline-flex items-center px-4 py-2 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent rounded-lg text-md md:mt-0 md:ml-4 bg-gray-900"
+                  className="inline-flex items-center px-4 py-2 mt-2 font-medium text-black transition duration-500 ease-in-out transform bg-transparent rounded-lg text-md md:mt-0 md:ml-4 bg-gray-100"
                   href="/"
                 >
                   <span className="justify-center">Become my bitch</span>
