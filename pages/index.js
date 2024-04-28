@@ -2,7 +2,9 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
+import Registration from "../components/RegistrarionForm"
 import { NextSeo } from "next-seo";
+import RegForm from "../components/RegistrarionForm";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <Header />
       <Main />
       <Footer />
+      <RegForm />
+      
     </div>
   );
 }

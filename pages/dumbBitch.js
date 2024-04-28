@@ -12,12 +12,12 @@ export default function Contact() {
       </Head>
       <Header />
       <div className="flex flex-col justify-center mx-auto mt-52 text-center max-w-2x1">
-        <h1 className="text-3xl font-bold tracking-tight text-black md:text-5xl">
+        <h1 className="text-3xl font-bold tracking-tight text-white md:text-5xl">
           Dumb Bitch
         </h1>
         <br />
         <a
-          className="w-64 p-1 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg sm:p-4"
+          className="w-64 p-1 mx-auto font-bold text-center text-white border border-gray-100 rounded-lg sm:p-4"
           href="/"
         >
           Піти нахуй
