@@ -1,3 +1,5 @@
+import RegForm from "./RegistrarionForm";
+
 export default function Main() {
   return (
     <section className="text-gray-600 body-font">
@@ -82,14 +84,14 @@ export default function Main() {
       </div>
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-          <div className="py-24 md:py-36">
+          <div className="pt-24 pb-12 md:pt-36 md:pb-12">
             <h1 className="mb-5 text-6xl Avenir font-semibold text-white">
               Subscribe to our newsletter
             </h1>
             <h1 className="mb-9 text-2xl font-semibold text-gray-300">
               Enter your email address and get our newsletters straight away.
             </h1>
-            <input
+            {/* <input
               placeholder="jack@example.com"
               name="email"
               type="email"
@@ -101,8 +103,14 @@ export default function Main() {
               href="/"
             >
               <span className="justify-center">Subscribe</span>
-            </a>
+            </a> */}
           </div>
+        </div>
+      </section>
+
+      <section className="relative">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-20">
+          <RegForm />
         </div>
       </section>
     </section>
