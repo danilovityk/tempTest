@@ -22,7 +22,7 @@ export default function Main() {
           <img
             className="w-80 md:ml-1 ml-24"
             alt="iPhone-12-cooked"
-            src="images/iPhoneHuy.jpg"
+            src="images/iPhoneDarkTheme.png"
           ></img>
         </div>
       </div>
