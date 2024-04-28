@@ -26,7 +26,7 @@ export default function Main() {
           ></img>
         </div>
       </div>
-      <section className="mx-auto bg-gray-300 py-2">
+      <section className="mx-auto bg-gray-100 py-2">
         <div className="container px-5 mx-auto lg:px-24 ">
           <div className="flex flex-col w-full mb-4 text-left lg:text-center">
             <h1 className="mt-4 mb-8 text-2xl Avenir font-semibold text-black">
