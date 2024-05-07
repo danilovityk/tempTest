@@ -57,3 +57,24 @@ a {
   filter: none; /* Remove grayscale effect on hover */
   transition: 0.4s;
 }
+
+.custom-width-30 {
+  width: 35%;
+}
+
+.custom-width-10 {
+  width: 5%;
+}
+
+.custom-width-60 {
+  width: 60%;
+}
+
+
+@media (max-width: 768px) {
+  .custom-width-30,
+  .custom-width-10,
+  .custom-width-60 {
+      width: 100%;
+  }
+}
