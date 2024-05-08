@@ -159,7 +159,7 @@ export default function RegForm() {
             </button>
           </div>
         </div>
-        <div id="confirmation-message" class="hidden bg-green-200 border border-green-600 text-green-900 px-4 py-2 rounded-md mb-4">
+        <div id="confirmation-message" className="hidden bg-green-200 border border-green-600 text-green-900 px-4 py-2 rounded-md mb-4">
             Form submitted successfully!
         </div>
 
