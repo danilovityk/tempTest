@@ -10,6 +10,7 @@
   "dependencies": {
     "autoprefixer": "^10.2.3",
     "caniuse-lite": "^1.0.30001613",
+    "mongodb": "^6.6.1",
     "mongoose": "^8.3.4",
     "next": "^14.2.3",
     "next-seo": "^6.5.0",

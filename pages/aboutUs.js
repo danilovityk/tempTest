@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className="text-black">
       <Head>
-        <title>Dumb Bitch</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />

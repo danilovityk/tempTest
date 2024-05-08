@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className="text-black">
       <NextSeo
-        title="404: of kings"
+        title="404: Glance Agency"
         description="404 page for all our missing pages"
         // canonical="https://nine4-2.vercel.app/404"
         // openGraph={{
