@@ -86,10 +86,10 @@ export default function Main() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div className="pt-24 pb-12 md:pt-36 md:pb-12">
             <h1 className="mb-5 text-6xl Avenir font-semibold text-white">
-              Subscribe to our newsletter
+              Start your road to financial freedom today
             </h1>
             <h1 className="mb-9 text-2xl font-semibold text-gray-300">
-              Enter your email address and get our newsletters straight away.
+              Fill out the form and we will get in touch with you.
             </h1>
             {/* <input
               placeholder="jack@example.com"

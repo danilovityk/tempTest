@@ -14,7 +14,7 @@ export default function RegForm() {
       });
 
       function submitForm(data) {
-        console.log(data);
+
         fetch('/api/data', {
             method: 'POST',
             headers: {
@@ -31,8 +31,6 @@ export default function RegForm() {
         })
         .catch(error => {
             console.error('Error:', error);
-            // Handle error if API call fails
-            // For example, show an error message to the user
         });
         
       }
@@ -40,7 +38,15 @@ export default function RegForm() {
       function showConfirmationMessage() {
         const confirmationMessageElement = document.getElementById('confirmation-message');
         confirmationMessageElement.classList.remove('hidden');
-    }
+      }
+
+    const validateContact = () => {
+        const telegramValue = document.getElementById('grid-telegram').value;
+        const whatsAppValue = document.getElementById('grid-whatsApp').value;
+
+        if (telegramValue == "" && whatsAppValue == "") return false
+        return true
+    };
 
   return (
     <>
@@ -123,7 +129,7 @@ export default function RegForm() {
               Telegram @
             </label>
             <input
-              {...register("telegram")}
+              {...register("telegram", { validate: validateContact})}
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-telegram"
               type="text"
@@ -140,14 +146,20 @@ export default function RegForm() {
               Whats App
             </label>
             <input
-              {...register("whatsApp")}
+              {...register("whatsApp", { validate: validateContact})}
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-              id="grid-phone"
+              id="grid-whatsApp"
               type="text"
               placeholder="+38 (067) 123 45 67"
             />
           </div>
         </div>
+
+        { (errors.whatsApp || errors.telegram) && (
+              <p className="text-red-500 text-xs italic mt-3">
+                Please fill up either Telegram or WhatsApp field.
+              </p>
+            )}
 
         <div className="my-10 mx-auto">
           <div className="flex justify-center">
@@ -160,7 +172,7 @@ export default function RegForm() {
           </div>
         </div>
         <div id="confirmation-message" className="hidden bg-green-200 border border-green-600 text-green-900 px-4 py-2 rounded-md mb-4">
-            Form submitted successfully!
+            Your response was submitted! Thank you!
         </div>
 
       </form>
